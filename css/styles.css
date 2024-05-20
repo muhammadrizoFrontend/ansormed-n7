@@ -56,6 +56,17 @@ body {
 	margin-left: auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 .btn {
 	border: none;
 	padding: 12px 24px;
@@ -147,3 +158,44 @@ body {
 	opacity: 0.6;
 }
 /* SITE-HEADER END */
+
+/* SITE HERO START */
+.site-hero {
+	background-color: #0eb4c1;
+	padding-top: 29px;
+	color: #fff;
+}
+
+.site-hero-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site-hero-info {
+	max-width: 500px;
+	width: 100%;
+}
+
+.site-hero-info-title {
+	margin-bottom: 16px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+}
+
+.site-hero-info-text {
+	margin-bottom: 36px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.site-hero-info-btn {
+	transition: all 0.4s ease;
+}
+
+.site-hero-info-btn:hover {
+	opacity: 0.8;
+}
+
+/* SITE HERO END */
