@@ -190,12 +190,32 @@ p {
 	line-height: 1.5;
 }
 
-.site-hero-info-btn {
+.site-hero-btn {
 	transition: all 0.4s ease;
 }
 
-.site-hero-info-btn:hover {
+.site-hero-btn:hover {
 	opacity: 0.8;
+	background-color: #de2e54;
+	color: #fff;
+}
+
+.site-hero-btn:active {
+	opacity: 0.8;
+}
+
+.site-hero-btn:focus {
+	outline: 2px dotted #de2e54;
+	outline-offset: 3px;
+}
+
+.site-hero-img-wrapper {
+	display: flex;
+}
+
+.site-hero-img-wrapper img {
+	width: 423px;
+	height: 504px;
 }
 
 /* SITE HERO END */
