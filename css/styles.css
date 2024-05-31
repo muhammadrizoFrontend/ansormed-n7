@@ -219,3 +219,33 @@ p {
 }
 
 /* SITE HERO END */
+
+/* SERVICES START */
+.services {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.services-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2px;
+	color: #000;
+	margin-bottom: 56px;
+}
+.services-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.services-item {
+	display: flex;
+	align-items: center;
+}
+
+.services-item:not(:last-child) {
+	margin-bottom: 80px;
+}
+/* SERVICES END */
