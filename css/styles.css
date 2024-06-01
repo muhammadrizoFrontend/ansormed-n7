@@ -248,4 +248,26 @@ p {
 .services-item:not(:last-child) {
 	margin-bottom: 80px;
 }
+
+.services-img {
+	margin-right: 64px;
+}
+
+.services-img img {
+	width: 200px;
+	height: 200px;
+}
+
+.services-info {
+	max-width: 600px;
+	width: 100%;
+}
+
+.services-info-title {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.2;
+	color: #222222;
+}
 /* SERVICES END */
