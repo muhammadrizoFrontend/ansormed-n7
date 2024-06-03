@@ -234,6 +234,10 @@ p {
 	margin-bottom: 56px;
 }
 .services-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -270,4 +274,58 @@ p {
 	line-height: 1.2;
 	color: #222222;
 }
+
+.services-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* SERVICES END */
+
+/* MAIN-FOOTER START */
+.main-footer {
+	background-color: #0eb4c1;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	color: #fff;
+	display: flex;
+}
+
+.main-footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-footer-title {
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+}
+
+.main-footer-info-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-footer-btn :not(last-child) {
+	margin-right: 40px;
+}
+
+.main-footer-btn {
+	background-color: transparent;
+	border: 2px solid#fff;
+	text-decoration: none;
+	margin-right: 16px;
+}
+
+.main-footer-btn:hover {
+	background-color: #de2e54;
+	border: 2px solid #de2e54;
+	color: #fff;
+}
+
+/* MAIN-FOOTER END */
